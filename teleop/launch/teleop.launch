@@ -1,0 +1,13 @@
+<launch>
+
+  <!--announcer node-->
+  <node name="voice_node" pkg="sound_play" type="soundplay_node.py" output="screen">
+  </node>  
+  
+ 
+  <!--teleoperation node-->
+  <node name="teleop_key" pkg="teleop" type="teleop_key.py" output="screen">
+  </node>
+ 
+</launch>
+
